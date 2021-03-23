@@ -18683,10 +18683,10 @@ input#email {
 	width:50%;
 }
 .infope{
-	background-image:url('/images/mejorada.jpg');
+	background-image:url('./images/mejorada.jpg');
 }
 .ubipe{
-	background-image:url('/images/mapa.jpg');
+	background-image:url('./images/mapa.jpg');
 }
 @media only screen and ( max-width:992px){
 	.flexx {
