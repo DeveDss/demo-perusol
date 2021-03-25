@@ -18682,12 +18682,15 @@ input#email {
 .el-flex{
 	width:50%;
 }
+.infope , .ubipe{
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 .infope{
-	background-image:url('../images/mejorada.jpg');
+	height:1000px;
 }
-.ubipe{
-	background-image:url('../images/mapa.jpg');
-}
+
 @media only screen and ( max-width:992px){
 	.flexx {
 		flex-direction: column;
@@ -18698,4 +18701,15 @@ input#email {
 	.el-flex:nth-child(2){
 		margin-top: 50px;
 	}
+}
+.client-logo img{
+	width: auto;
+	object-fit: cover;
+	height: 250px;
+}
+@media only screen and (max-width: 640px)
+{
+.solicitar {
+    font-size: 12px !important;
+}
 }
